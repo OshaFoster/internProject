@@ -1,8 +1,6 @@
 import React from 'react'
 import { graphql } from 'react-apollo'
 import { withRouter } from 'react-router-dom'
-import ListPage from './ListPage'
-import NewPostLink from './NewPostLink'
 import gql from 'graphql-tag'
 
 class App extends React.Component {
@@ -52,8 +50,6 @@ class App extends React.Component {
             Logout
           </span>
         </div>
-        <ListPage />
-        <NewPostLink />
       </div>
     )
   }
@@ -79,7 +75,6 @@ class App extends React.Component {
             </span>
           </div>
         </div>
-        <ListPage />
       </div>
     )
   }

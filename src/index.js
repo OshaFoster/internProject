@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './components/App'
-import CreatePost from './components/CreatePost'
 import CreateUser from './components/CreateUser'
 import LoginUser from './components/LoginUser'
 import {BrowserRouter as Router, Route} from 'react-router-dom'
@@ -38,7 +37,6 @@ ReactDOM.render((
     <Router>
       <div>
         <Route exact path='/' component={App} />
-        <Route path='/create' component={CreatePost} />
         <Route path='/login' component={LoginUser} />
         <Route path='/signup' component={CreateUser} />
       </div>
