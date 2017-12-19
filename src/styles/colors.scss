@@ -1,0 +1,40 @@
+/* Neutral colors */
+$white: #fff  !default;
+$ultra-light-gray: #f4f4f4 !default;
+$light-gray: #f6f6f6  !default;
+$medium-gray: #d8d8d8 !default;
+$gray: #9b9b9b !default;
+$dark-gray: #797979 !default;
+$ultra-dark-gray: #414141 !default;
+$charcoal: #2f2e2e !default;
+$black: #111 !default;
+$red: #ff5d5d !default;
+$ultra-light-gray: #f4f4f4 !default;
+$light-blue-gray: #e4e6f8 !default;
+$white: #fff !default;
+$red: #ff5d5d !default;
+
+/* Text colors */
+$heading-text-dark: #1e1e1e !default;
+$heading-text-light: #5e5e5e !default;
+$body-text: #a6a6a6 !default;
+$green-text: $green !default;
+$purple-text: $purple !default;
+$background-color: $ultra-light-gray !default;
+$content-area-color: $white !default;
+
+/* React-toolbox theme colors */
+$color-primary: $green !default;
+$color-primary-dark: $purple !default;
+$color-accent: $red !default;
+$appbar-color: $white !default;
+$appbar-contrast: $purple !default;
+$preferred-font: "Lato", "Helvetica", "Arial", sans-serif !default;
+$checkbox-text-font-size: 1.6rem !default;
+$checkbox-color: $ultra-dark-gray !default;
+$slider-main-color: $purple !default;
+$input-text-label-color: $medium-gray !default;
+$switch-thumb-on-color: $purple !default;
+$switch-track-on-color: $medium-gray !default;
+$gray-border: solid 2px $medium-gray;
+$gray-border-thick: solid 4px $medium-gray;

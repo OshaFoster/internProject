@@ -1,0 +1,16 @@
+/* Theme colors */
+$purple: #7276d4;
+$ultra-dark-purple: #1d1e39;
+$dark-purple: #3a4296;
+$plum: #7577ac;
+$green: #37c99e;
+$dark-green: #3cb68e;
+$lime: #d1fca4;
+$gold: #fcc724;
+$pale-yellow: #f7f3c5;
+
+$logo: url(static/logo.svg);
+$logo-transparent: url(static/logo-trans.svg) !important;
+$logo-height: 26px;
+
+@import 'base';
