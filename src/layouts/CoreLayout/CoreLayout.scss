@@ -1,0 +1,24 @@
+.core_layout {
+  background-color: $white;
+  width: 95%;
+  margin: auto;
+}
+
+.padding_top {
+  // if home page no padding
+  padding-top: 64px;
+  @include at(xs) {
+    padding-top: 56px;
+  }
+}
+
+.content_area {
+  width: 100%;
+  margin: auto;
+  background: $white;
+  overflow: hidden;
+}
+
+.max_width {
+  max-width: 800px;
+}

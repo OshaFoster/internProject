@@ -10,6 +10,8 @@ type User @model {
   email: String @isUnique
   password: String
 
+  coachProfile: CoachProfile
+
   posts: [Post!]! @relation(name: "UserPosts")
 }
 
@@ -25,6 +27,14 @@ type Post @model {
   imageUrl: String!
 
   author: User! @relation(name: "UserPosts")
+}
+
+type CoachProfile @model {
+  # Required system field:
+  id: ID! @isUnique # read-only (managed by Graphcool)
+
+  location: String!
+  bio: String!
 }
 
 
