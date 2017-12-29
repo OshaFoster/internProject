@@ -16,6 +16,8 @@
     "react-apollo": "^2.0.0",
     "react-dom": "^16.0.0",
     "react-router-dom": "^4.2.2",
+    "react-toolbox": "^2.0.0-beta.12",
+    "redux-form": "^7.2.0",
     "tachyons": "^4.9.0"
   },
   "scripts": {

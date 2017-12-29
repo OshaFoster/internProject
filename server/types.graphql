@@ -10,7 +10,7 @@ type User @model {
   email: String @isUnique
   password: String
 
-  coachProfile: CoachProfile
+  coachProfile: CoachProfile @relation(name: "CoachProfile")
 
   posts: [Post!]! @relation(name: "UserPosts")
 }
@@ -35,6 +35,8 @@ type CoachProfile @model {
 
   location: String!
   bio: String!
+  user: User @relation(name: "CoachProfile")
+
 }
 
 
