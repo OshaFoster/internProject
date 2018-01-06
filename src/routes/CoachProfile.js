@@ -11,9 +11,9 @@ class CoachProfile extends React.Component {
 
     return (
 
-        <div className="parent">
+        <div className="div1">
         <div className="imageDiv">
-            <img className="profileImg" src="https://au.junkfreejune.org/themes/base/production/images/default-profile.png" alt="profile" />
+            <img className="profileImg" src="https://cap.stanford.edu/profiles/viewImage?profileId=47087&type=square&ts=1509496136819" alt="profile" />
         </div>
 
         <div className="about">
@@ -22,7 +22,6 @@ class CoachProfile extends React.Component {
             <h3>location</h3>
 
         </div>
-
         </div>
 
     )
