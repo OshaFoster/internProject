@@ -36,7 +36,6 @@ type CoachProfile @model {
   location: String!
   bio: String!
   user: User @relation(name: "CoachProfile")
+  test: String!
 
 }
-
-
