@@ -5,8 +5,8 @@ import CreateUser from './routes/CreateUser'
 import LoginUser from './routes/LoginUser'
 import CoachProfile from "./routes/CoachProfile"
 import Header from "./components/Header/Header"
-import './routes/CoachProfile.scss'
-import "./components/Header/Header.scss"
+import './routes/CoachProfile.css'
+import "./components/Header/Header.css"
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import { ApolloClient } from 'apollo-client'
 import { ApolloProvider } from 'react-apollo'
