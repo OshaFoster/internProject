@@ -1,0 +1,30 @@
+
+.profileImg {
+  border-radius: 999px;
+  height: 225px;
+  width: 225px;
+  border: 3px solid #3cb68e ;
+  margin: 50px;
+}
+
+.imageDiv{
+  position: relative;
+  display: inline-block;
+  width: 30%;
+}
+
+.about {
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  display: inline-block;
+  width: 25%;
+  height: 225px;
+  margin-top: 0px;
+  vertical-align: top;
+  padding-top: 50px;
+  color: #2f2e2e;
+}
+
+.parent {
+  border-bottom: 1px solid #2f2e2e;
+}
