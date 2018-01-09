@@ -1,17 +1,22 @@
-/*add back*/
 
 .profileImg {
-  border-radius: 999px;
-  height: 225px;
-  width: 225px;
-  border: 3px solid #3cb68e ;
-  margin: 50px;
-}
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border: 3px solid white;
+  box-shadow: 1px 1px 10px gray;
 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+}
 .imageDiv{
   position: relative;
   display: inline-block;
-  width: 30%;
+  width: 25%;
+  margin: 50px 50px 50px 90px;
+
 }
 
 .about {
@@ -20,12 +25,31 @@
   display: inline-block;
   width: 25%;
   height: 225px;
-  margin-top: 0px;
+  padding: 20px;
   vertical-align: top;
-  padding-top: 50px;
-  color: #2f2e2e;
+  margin-top: 50px;
+  line-height:10px;
+  color: white;
+
 }
 
-.parent {
-  border-bottom: 1px solid #2f2e2e;
+.div1 {
+  /*border-bottom: 1px solid #438496;*/
+  background-color:  #286da8;
+  width: 950px;
+  margin: auto;
+  margin-top: 60px;
+
+}
+
+.videoDiv {
+  display: inline-block;
+  margin-left: 350px;
+  margin-top: 60px;
+
+}
+
+.div2 {
+  height: 1000px;
+  border-top: 1px solid #438496;
 }
