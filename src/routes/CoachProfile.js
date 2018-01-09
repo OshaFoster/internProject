@@ -1,4 +1,5 @@
 import React from 'react'
+import Header from "../components/Header/Header"
 
 
 class CoachProfile extends React.Component {
@@ -10,6 +11,8 @@ class CoachProfile extends React.Component {
 
 
     return (
+        <div>
+        <Header/>
     <div className="parent">
         <div className="div1">
         <div className="imageDiv">
@@ -18,17 +21,17 @@ class CoachProfile extends React.Component {
 
         <div className="about">
             <h1>Bob Thomas</h1>
-            <p>gender</p>
-            <p>location</p>
+            <p>Male</p>
+            <p>San Francisco</p>
         </div>
         </div>
         <div className="div2">
             <div className="videoDiv">
-            <iframe style={{height: '400px', width: '550px'}} src=""></iframe>
+            <iframe style={{height: '300px', width: '450px'}} src=""></iframe>
             </div>
         </div>
     </div>
-
+        </div>
 
     )
   }
