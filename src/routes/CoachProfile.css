@@ -1,8 +1,8 @@
 
 .profileImg {
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
   border: 3px solid white;
   box-shadow: 1px 1px 10px gray;
 
@@ -15,7 +15,7 @@
   position: relative;
   display: inline-block;
   width: 25%;
-  margin: 50px 50px 50px 90px;
+  margin: 40px 0px 40px 320px;
 
 }
 
@@ -23,23 +23,22 @@
   position: relative;
   font-family: 'Lato', sans-serif;
   display: inline-block;
-  width: 25%;
-  height: 225px;
-  padding: 20px;
+  width: 30%;
+  height: 180px;
+  padding: 0px;
   vertical-align: top;
   margin-top: 50px;
   line-height:10px;
-  color: white;
+  color:white;
 
 }
 
 .div1 {
   /*border-bottom: 1px solid #438496;*/
-  background-color:  #286da8;
-  width: 950px;
-  margin: auto;
+  background-color: #286da8;;
+  width: cover;
   margin-top: 60px;
-
+  height: 250px;
 }
 
 .videoDiv {
@@ -50,6 +49,8 @@
 }
 
 .div2 {
+  background-color:#f4f4f4;
   height: 1000px;
   border-top: 1px solid #438496;
+  color:#e8e8ed;
 }
