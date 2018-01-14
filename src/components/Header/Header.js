@@ -13,13 +13,14 @@ function Header(){
         position:'fixed',
         top:'0',
         zIndex:'100',
-        borderBottom: "1px solid #43849",
+        borderBottom: "1px solid white",
     };
 
     const ausavaStyle = {
         fontSize: '32px',
         color: 'white',
         marginLeft: "20px",
+        fontFamily: ' \'Cinzel\', serif',
 
     };
 

@@ -7,7 +7,7 @@ class ActionBar extends Component {
 
     render(){
         return(
-        <div className="stickyDiv">This will be a sticky div</div>
+        <div className="stickyDiv">Schedule Appointment</div>
         )}
 
 }
