@@ -26,9 +26,11 @@ class CoachProfile extends React.Component {
             <p><span> Connect  </span> thomas_bob@gmail.com</p>
             <p><span> Request Free Session  </span> Link </p>
         </div>
+        </div>
             <Action/>
         <div className="div2">
-            <div className='videoDiv'>Video</div>
+            <div className='videoDiv'>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Jg3v1GsmvZ4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
             <div className="infoDiv">
                 <div><h2 style={{color: "#cd5360"}}>Specialties</h2></div>
                 <div><h3>Concerns I help with</h3>
@@ -46,7 +48,6 @@ class CoachProfile extends React.Component {
 
             </div>
          </div>
-        </div>
         </div>
         </div>
 
