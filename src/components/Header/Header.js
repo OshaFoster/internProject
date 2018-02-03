@@ -5,8 +5,8 @@ function Header(){
 
     const headerStyle = {
 
-        backgroundColor: "#cd5360",
-        height: '70px',
+        backgroundColor: "#438496",
+        height: '65px',
         width: '100%',
         padding: '20px',
         fontSize: '24px',

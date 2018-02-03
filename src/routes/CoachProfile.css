@@ -3,8 +3,8 @@
   border-radius: 50%;
   height:100%;
   width: 100%;
-  border: 3px solid white;
-  box-shadow: 1px 1px 10px gray;
+  border: 3px solid #286da8;
+  box-shadow: 1px 1px 5px gray;
 
   background-repeat: no-repeat;
   background-position: center center;
@@ -16,7 +16,7 @@
   display: inline-block;
   width:200px;
   height: 180px;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 
@@ -30,7 +30,15 @@
   vertical-align: top;
   margin: 50px 0px 0px 50px;
   line-height:10px;
-  color:white;
+  color:#286da8;
+}
+
+.infoDiv {
+  height: auto;
+  width: 100%;
+  margin: 20px auto auto 0px;
+  border-left: #414141;
+  padding: 130px;
 }
 
 @media (max-width: 599px) {
@@ -38,19 +46,18 @@
        margin: 50px 0px 0px 10px;
       font-size: .75em;
   }
-  .imageDiv {
-      width:150px;
-      height:140px;
-      margin-left: 10px;
+  .infoDiv {
+     padding: 10px;
   }
 }
 .div1 {
-  background-color: #286da8;;
+  background-color: white;;
   width: 100%;
   margin-top: 60px;
   height: 280px;
   display: flex;
   justify-content:center;
+  border-bottom: 1px solid #286da8;
 }
 
 
@@ -64,25 +71,12 @@
 }
 
 .videoDiv {
-  height: 300px;
-  width:50%;
-  background: url("http://www.expresslifecoaching.com.au/wp-content/uploads/2014/12/life-coaching-new-life.png") no-repeat;
   display: flex;
   align-self: center;
   margin-top: 60px;
-  border: 1px solid gray;
-
-
 }
 
-.infoDiv {
-  height: 450px;
-  width: 100%;
-  margin: 20px auto auto 0px;
-  border-left: #414141;
-  padding:10px;
 
-}
 p {
   font-size: 16px;
   color:#a6a6a6;
