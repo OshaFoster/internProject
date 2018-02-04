@@ -1,0 +1,23 @@
+.stickyDiv {
+    height: 60px;
+    width: 65%;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -30px;
+    color: #cd5360;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.5em;
+    border: 1px solid #cd5360;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+@media (max-width: 599px) {
+      .stickyDiv  {
+      font-size: 1em;
+  }
+}
